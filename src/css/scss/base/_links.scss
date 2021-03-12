@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    #LINKS
+\*------------------------------------*/
+
+/**
+ * Link base styles
+ */
+// a {
+// 	color: $color-neutral-gray-73;
+// 	text-decoration: none;
+// 	outline: 0;
+// 	transition: color $anim-fade-quick $anim-ease;
+
+// 	&:hover,
+// 	&:focus {
+// 		color: $color-neutral-gray-50;
+// 	}
+
+// 	&:active {
+// 		color: $color-neutral-gray-93;
+// 	}
+// }
+
+:focus {
+	outline: 3px solid $clr-accent;
+	outline-offset: 3px;
+}
